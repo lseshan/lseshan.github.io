@@ -36,3 +36,9 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+### Install next theme
+
+On the top level site directory, Run:
+
+$ npm install hexo-theme-next
