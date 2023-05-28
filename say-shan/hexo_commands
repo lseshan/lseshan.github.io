@@ -498,3 +498,4 @@
   549  history | grep hexo
   550  hexo generate --deploy
   551  history > hexo_commands
+   hexo new  post -p system-design/web-crawler "web-crawler"
