@@ -1,7 +1,7 @@
 ---
 title: hexo_readme
 create: 2025-12-11 10:39:35
-update: 2025-12-11 10:39:48
+update: 2025-12-11 11:23:45
 ---
  brew install hexo -g
  brew install hexo-theme-next
@@ -14,3 +14,4 @@ hexo:
       hexo clean
       hexo generate
       hexo serve
+  b. hexo deploy deploys it 
