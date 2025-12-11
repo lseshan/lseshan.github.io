@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"lseshan.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.26.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Markmap  * {   margin: 0;   padding: 0; } #mindmap {   display: block;   width: 100vw;   height: 100vh; }      ((r) &#x3D;&gt; {           setTimeout(r);         })(() &#x3D;&gt; {   const { markmap, mm } &#x3D; win">
+<meta property="og:type" content="website">
+<meta property="og:title" content="say-shan">
+<meta property="og:url" content="http://lseshan.github.io/mindmap/system_design_map.html">
+<meta property="og:site_name" content="say-shan">
+<meta property="og:description" content="Markmap  * {   margin: 0;   padding: 0; } #mindmap {   display: block;   width: 100vw;   height: 100vh; }      ((r) &#x3D;&gt; {           setTimeout(r);         })(() &#x3D;&gt; {   const { markmap, mm } &#x3D; win">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-12-11T05:49:45.374Z">
+<meta property="article:modified_time" content="2025-12-11T05:49:45.374Z">
+<meta property="article:author" content="Lakshmi Narasimhan Seshan">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://lseshan.github.io/mindmap/system_design_map">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":true,"permalink":"http://lseshan.github.io/mindmap/system_design_map.html","path":"mindmap/system_design_map.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | say-shan
+</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">say-shan</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section">Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section">About</a></li><li class="menu-item menu-item-blogs"><a href="/blogs/" rel="section">blogs</a></li><li class="menu-item menu-item-mindmap"><a href="/mindmap/" rel="section">mindmap</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Lakshmi Narasimhan Seshan</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="en"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.5/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.5/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"system_design_map","children":[{"content":"\n<p data-lines=\"10,11\">Fundamentals</p>","children":[],"payload":{"tag":"li","lines":"10,12"}},{"content":"\n<p data-lines=\"12,13\">Specifics</p>","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"\n<p data-lines=\"13,14\">Template</p>","children":[{"content":"\n<p data-lines=\"14,15\">Functional requirements (5)</p>","children":[{"content":"Useful questions","children":[{"content":"what is the target use case","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"how user interacts","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Identify the actors, entities, relationship in the systems","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"li","lines":"15,19"}},{"content":"Helps in:","children":[{"content":"Identifying APIs, Schema","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Identifying Service and microservice","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Each requirement typically becomes a","children":[],"payload":{"tag":"li","lines":"22,23"}}],"payload":{"tag":"li","lines":"19,23"}}],"payload":{"tag":"li","lines":"14,23"}},{"content":"\n<p data-lines=\"23,24\">Non Functional requirements (5)</p>","children":[{"content":"Availability","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Throughput","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Consistency","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Response time/latency - usually in few ms 1-200 ms","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Correctness","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"CAP establish Availability &gt;&gt; consistency","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Establis Read &gt;&gt;&gt; write or vice versa","children":[],"payload":{"tag":"li","lines":"30,33"}}],"payload":{"tag":"li","lines":"23,33"}},{"content":"\n<p data-lines=\"33,34\">Capacity</p>","children":[{"content":"Assumptions","children":[{"content":"Time","children":[{"content":"planetary 500ms","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Xfer 1MB","children":[{"content":"0.001ms 1 TB/s  HBM RAM","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"0.02 ms 50 GB/s DDR","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"0.01 ms 100GB/s network; 100KB 1us","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"0.07 ms 14 GB/s","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"2    ms 500 MB/s","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"7    ms 200 MB/s","children":[],"payload":{"tag":"li","lines":"43,44"}}],"payload":{"tag":"li","lines":"37,44"}},{"content":"Hours day 25","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Days in year: 300 (or 400)","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"Days in 3 year: 1000","children":[],"payload":{"tag":"li","lines":"46,47"}},{"content":"seconds 1 day - 100000(84400)","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"1s - 10^3ms : (10 ^ 6)us : (10 ^ 9) ns","children":[],"payload":{"tag":"li","lines":"48,49"}}],"payload":{"tag":"li","lines":"35,49"}},{"content":"Storage","children":[{"content":"10 TB (1 server)","children":[],"payload":{"tag":"li","lines":"50,51"}},{"content":"128 GB (RAM)","children":[],"payload":{"tag":"li","lines":"51,52"}}],"payload":{"tag":"li","lines":"49,52"}},{"content":"Compute","children":[{"content":"N<sub>thread</sub> 32 cores / 8 thread = 250 threads/server","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"50k sockets","children":[],"payload":{"tag":"li","lines":"54,55"}},{"content":"4GB data xfer per sec ssd","children":[],"payload":{"tag":"li","lines":"55,56"}},{"content":"300 MB data xfer in disk","children":[],"payload":{"tag":"li","lines":"56,57"}},{"content":"cache page size 4KB","children":[],"payload":{"tag":"li","lines":"57,58"}},{"content":"mutex lock 25ns","children":[],"payload":{"tag":"li","lines":"58,59"}}],"payload":{"tag":"li","lines":"52,59"}},{"content":"Scale assumptions (when interviewer doesn't give)","children":[{"content":"500 million users","children":[],"payload":{"tag":"li","lines":"60,61"}},{"content":"250 million DAU","children":[],"payload":{"tag":"li","lines":"61,62"}},{"content":"R&gt;&gt;&gt; W : 1000 &gt;&gt; 1 or (100 &gt;&gt; 1)","children":[],"payload":{"tag":"li","lines":"62,63"}},{"content":"chunk size: 100 kB to 10 MB - 1MB elbow point","children":[],"payload":{"tag":"li","lines":"63,64"}},{"content":"","children":[],"payload":{"tag":"li","lines":"64,65"}}],"payload":{"tag":"li","lines":"59,65"}},{"content":"** talk in bytes, ms, days **","children":[],"payload":{"tag":"li","lines":"65,66"}}],"payload":{"tag":"li","lines":"34,66"}},{"content":"Variables","children":[{"content":"used id : 50 bit (1000 trillion) 64 bit good round off","children":[],"payload":{"tag":"li","lines":"67,68"}}],"payload":{"tag":"li","lines":"66,68"}},{"content":"Metrics","children":[{"content":"Compute Metrics","children":[{"content":"Tput<sub>thread</sub> = 1000 ms / L<sub>r</sub> (latency per request in ms) (Typically: ~1:200 ms)","children":[],"payload":{"tag":"li","lines":"70,71"}},{"content":"Tput<sub>server</sub> = Tput <sub>thread</sub> *  N<sub>thread</sub>","children":[],"payload":{"tag":"li","lines":"71,72"}},{"content":"M<sub>req</sub> = Tput<sub>expected</sub> / Tput<sub>server</sub> / 50% (runs at 50 % capacity)","children":[],"payload":{"tag":"li","lines":"72,73"}},{"content":"L<sub>r</sub> (latency per request): RTT + Service time","children":[],"payload":{"tag":"li","lines":"73,74"}}],"payload":{"tag":"li","lines":"69,74"}},{"content":"\n<h2 data-lines=\"74,76\">Storage metrics</h2>","children":[],"payload":{"tag":"li","lines":"74,76"}}],"payload":{"tag":"li","lines":"68,76"}}],"payload":{"tag":"li","lines":"33,76"}},{"content":"\n<p data-lines=\"76,77\">High Level Design (5)</p>","children":[{"content":"Add logical diagram with interactions across microservice","children":[],"payload":{"tag":"li","lines":"77,78"}}],"payload":{"tag":"li","lines":"76,78"}},{"content":"\n<p data-lines=\"78,79\">Low Level Design (15)</p>","children":[{"content":"Dwelve deep into each microservice","children":[],"payload":{"tag":"li","lines":"79,80"}},{"content":"This is very specific to that problem","children":[],"payload":{"tag":"li","lines":"80,81"}},{"content":"Ex. URL shortener the counting","children":[],"payload":{"tag":"li","lines":"81,82"}}],"payload":{"tag":"li","lines":"78,82"}},{"content":"\n<p data-lines=\"82,83\">Scale (5)</p>","children":[{"content":"Reasons","children":[{"content":"Huge data size (Shard)","children":[{"content":"Shard","children":[{"content":"What to shard on","children":[],"payload":{"tag":"li","lines":"86,87"}},{"content":"Consistent hashing for scale up / scale down","children":[],"payload":{"tag":"li","lines":"87,88"}}],"payload":{"tag":"li","lines":"85,88"}}],"payload":{"tag":"li","lines":"84,88"}},{"content":"Large number of requests (Tput) (Replication, Shard)","children":[],"payload":{"tag":"li","lines":"88,89"}},{"content":"High response time (L or Rsp) Cache","children":[],"payload":{"tag":"li","lines":"89,90"}},{"content":"single point of failure (Availability) (Replication)","children":[],"payload":{"tag":"li","lines":"90,91"}},{"content":"Geo Location (CDN) (Geo-replication)","children":[],"payload":{"tag":"li","lines":"91,92"}},{"content":"hotspots (Cache)","children":[],"payload":{"tag":"li","lines":"92,93"}},{"content":"CAP","children":[],"payload":{"tag":"li","lines":"93,94"}}],"payload":{"tag":"li","lines":"83,94"}},{"content":"Solutions","children":[{"content":"Shard","children":[{"content":"What to shard on","children":[],"payload":{"tag":"li","lines":"96,97"}},{"content":"Consistent hashing for scale up / scale down","children":[],"payload":{"tag":"li","lines":"97,98"}}],"payload":{"tag":"li","lines":"95,98"}},{"content":"Replication","children":[{"content":"Machines fail;","children":[],"payload":{"tag":"li","lines":"99,100"}}],"payload":{"tag":"li","lines":"98,100"}}],"payload":{"tag":"li","lines":"94,100"}},{"content":"Talk throughput by calculation","children":[{"content":"Focus reads","children":[],"payload":{"tag":"li","lines":"101,102"}},{"content":"Machines<sub>need</sub> = Req<sub>total</sub> / Req<sub>machine</sub>","children":[],"payload":{"tag":"li","lines":"102,103"}},{"content":"Scale API servers","children":[],"payload":{"tag":"li","lines":"103,104"}},{"content":"Assume L<sub>r</sub> (latency per request in ms)","children":[],"payload":{"tag":"li","lines":"104,105"}},{"content":"Cache  - Add exceptions for Celebrities","children":[],"payload":{"tag":"li","lines":"105,106"}}],"payload":{"tag":"li","lines":"100,106"}},{"content":"","children":[],"payload":{"tag":"li","lines":"106,107"}}],"payload":{"tag":"li","lines":"82,107"}},{"content":"","children":[],"payload":{"tag":"li","lines":"107,108"}}],"payload":{"tag":"li","lines":"13,108"}},{"content":"\n<p data-lines=\"108,109\">Techniques</p>","children":[{"content":"Inconsistency resolution","children":[{"content":"versioning using vector clocks (for updates to the values)","children":[],"payload":{"tag":"li","lines":"110,111"}}],"payload":{"tag":"li","lines":"109,111"}},{"content":"Handling failures","children":[{"content":"Failure Detection","children":[{"content":"gossip protocol","children":[],"payload":{"tag":"li","lines":"113,114"}}],"payload":{"tag":"li","lines":"112,114"}},{"content":"handling temporary failures","children":[{"content":"sloppy quorum","children":[],"payload":{"tag":"li","lines":"115,116"}},{"content":"Hinted handoff","children":[],"payload":{"tag":"li","lines":"116,117"}}],"payload":{"tag":"li","lines":"114,117"}},{"content":"permanent failures","children":[{"content":"Anti entrophy using merkle tree","children":[],"payload":{"tag":"li","lines":"118,119"}}],"payload":{"tag":"li","lines":"117,119"}}],"payload":{"tag":"li","lines":"111,119"}},{"content":"Caching","children":[{"content":"heavy read data","children":[],"payload":{"tag":"li","lines":"120,121"}},{"content":"Problems","children":[{"content":"Cache invalidation","children":[],"payload":{"tag":"li","lines":"122,123"}}],"payload":{"tag":"li","lines":"121,123"}},{"content":"Cache locality","children":[{"content":"External","children":[],"payload":{"tag":"li","lines":"124,125"}},{"content":"Client side. eg. strava, browsers","children":[],"payload":{"tag":"li","lines":"125,126"}},{"content":"App side","children":[],"payload":{"tag":"li","lines":"126,127"}},{"content":"DB side","children":[],"payload":{"tag":"li","lines":"127,128"}},{"content":"Geo location. eg CDN","children":[{"content":"Mostly for static media (videos, images)","children":[],"payload":{"tag":"li","lines":"129,130"}}],"payload":{"tag":"li","lines":"128,130"}},{"content":"Inprocess caching","children":[{"content":"fastest but tell only after external cache is mentioned","children":[],"payload":{"tag":"li","lines":"131,132"}},{"content":"cache invalidation or stale data is an issue","children":[],"payload":{"tag":"li","lines":"132,133"}},{"content":"small, frequent, rarely change data","children":[],"payload":{"tag":"li","lines":"133,134"}}],"payload":{"tag":"li","lines":"130,134"}}],"payload":{"tag":"li","lines":"123,134"}},{"content":"Cache architecture","children":[{"content":"Cache  aside loading: check cache, miss load from DB","children":[],"payload":{"tag":"li","lines":"135,136"}},{"content":"Write thorugh: write to cache and then DB is updated","children":[{"content":"Bit complex to implement; dual write issue;","children":[],"payload":{"tag":"li","lines":"137,138"}},{"content":"use when you need <strong>always</strong> fresh data","children":[],"payload":{"tag":"li","lines":"138,139"}}],"payload":{"tag":"li","lines":"136,139"}},{"content":"Write-behind:","children":[{"content":"Write to Cache; Caches flushes slowly to the DB","children":[],"payload":{"tag":"li","lines":"140,141"}},{"content":"<strong>high througput</strong>, <strong>eventual consitency accetable</strong>","children":[],"payload":{"tag":"li","lines":"141,142"}},{"content":"used in: metrics, analytics pipeline","children":[],"payload":{"tag":"li","lines":"142,143"}}],"payload":{"tag":"li","lines":"139,143"}},{"content":"Read through: same as Cache aside but cache reads","children":[{"content":"Not common","children":[],"payload":{"tag":"li","lines":"144,145"}},{"content":"CDN is form of read through cache","children":[],"payload":{"tag":"li","lines":"145,146"}}],"payload":{"tag":"li","lines":"143,146"}}],"payload":{"tag":"li","lines":"134,146"}},{"content":"Cache eviction","children":[{"content":"LRU: Ring buffer or linked list (most commonly used)","children":[],"payload":{"tag":"li","lines":"147,148"}},{"content":"LFU: use some kind of counter; tredding topics, videos","children":[],"payload":{"tag":"li","lines":"148,149"}},{"content":"FIFO: rarely used","children":[],"payload":{"tag":"li","lines":"149,150"}},{"content":"TTL: works with LRU / LFU. It is like date will be stale","children":[{"content":"for tokens, api responses","children":[],"payload":{"tag":"li","lines":"151,152"}}],"payload":{"tag":"li","lines":"150,152"}}],"payload":{"tag":"li","lines":"146,152"}},{"content":"Cache problems","children":[{"content":"Cache stampede (Thundering here)","children":[{"content":"on cache miss or TTL expiry, all requests hits the DB","children":[],"payload":{"tag":"li","lines":"154,155"}},{"content":"Solve this by: Request coalesing,<br>\nCache warming (for ttl)<br>\nif cache invalidation is done, then warming doesn't help","children":[],"payload":{"tag":"li","lines":"155,158"}}],"payload":{"tag":"li","lines":"153,158"}}],"payload":{"tag":"li","lines":"152,158"}},{"content":"Cache consistency (or the lack of it)","children":[{"content":"Cache invalidation on writes","children":[],"payload":{"tag":"li","lines":"159,160"}},{"content":"short TTLs","children":[],"payload":{"tag":"li","lines":"160,161"}},{"content":"allow eventual consitency: metrics,","children":[],"payload":{"tag":"li","lines":"161,162"}}],"payload":{"tag":"li","lines":"158,162"}},{"content":"Hot keys","children":[{"content":"can overload cache nodes","children":[],"payload":{"tag":"li","lines":"163,164"}},{"content":"Replicate them, keep it in process, rate limit ( but user experience goes bad)","children":[],"payload":{"tag":"li","lines":"164,165"}},{"content":"Common in any Read heavy problem","children":[],"payload":{"tag":"li","lines":"165,166"}}],"payload":{"tag":"li","lines":"162,166"}},{"content":"When to use cache","children":[{"content":"Read heavy workload, expensive computation, reduce query latency, reduce db load (cache queries)","children":[],"payload":{"tag":"li","lines":"167,168"}},{"content":"Bring it up only after reasoning with numbers (rough)","children":[],"payload":{"tag":"li","lines":"168,169"}}],"payload":{"tag":"li","lines":"166,169"}}],"payload":{"tag":"li","lines":"119,169"}},{"content":"Replication:","children":[{"content":"References","children":[{"content":"DDIA","children":[],"payload":{"tag":"li","lines":"171,172"}}],"payload":{"tag":"li","lines":"170,172"}},{"content":"Decrease Latency( geo-replication)","children":[],"payload":{"tag":"li","lines":"172,173"}},{"content":"Increase read throughput (because multiple replicas)","children":[],"payload":{"tag":"li","lines":"173,174"}},{"content":"Increase Availability (because multiple machines)","children":[],"payload":{"tag":"li","lines":"174,175"}},{"content":"3 Algorithms","children":[{"content":"Single leader many followers:","children":[{"content":"Write to the leader; Read from followers","children":[],"payload":{"tag":"li","lines":"177,178"}},{"content":"Followers; Replication Log;","children":[],"payload":{"tag":"li","lines":"178,179"}},{"content":"Sync Vs semi sync vs Async: sync all followers  vs 1 follower sync/rest async vs async to all","children":[],"payload":{"tag":"li","lines":"179,180"}},{"content":"Used by: RDBMS, MongoDB, Kafka, RabbitMQ","children":[],"payload":{"tag":"li","lines":"180,181"}},{"content":"Issues","children":[],"payload":{"tag":"li","lines":"181,182"}},{"content":"Leader failure: Determination, choosing new, reconfig","children":[],"payload":{"tag":"li","lines":"182,183"}},{"content":"Replication Logs","children":[{"content":"statement based","children":[],"payload":{"tag":"li","lines":"184,185"}},{"content":"WAL (depends on the storage engine)","children":[],"payload":{"tag":"li","lines":"185,186"}},{"content":"Logical","children":[{"content":"insert: new data","children":[],"payload":{"tag":"li","lines":"187,188"}},{"content":"update: updated data","children":[],"payload":{"tag":"li","lines":"188,189"}},{"content":"delete: record with data deleted","children":[],"payload":{"tag":"li","lines":"189,190"}}],"payload":{"tag":"li","lines":"186,190"}},{"content":"Trigger based: external code","children":[],"payload":{"tag":"li","lines":"190,191"}}],"payload":{"tag":"li","lines":"183,191"}},{"content":"Replication LAG","children":[{"content":"Problems","children":[{"content":"Monotonic reads: r1 vs r2 always read from one replica","children":[],"payload":{"tag":"li","lines":"193,194"}},{"content":"Reading your own writes: read-after-write consistency; use time of update","children":[],"payload":{"tag":"li","lines":"194,195"}},{"content":"consistent prefix reads","children":[],"payload":{"tag":"li","lines":"195,196"}}],"payload":{"tag":"li","lines":"192,196"}},{"content":"Solutions:","children":[{"content":"Applications should be aware","children":[],"payload":{"tag":"li","lines":"197,198"}},{"content":"Transactions but with distributed data this went to back burner","children":[],"payload":{"tag":"li","lines":"198,199"}}],"payload":{"tag":"li","lines":"196,199"}}],"payload":{"tag":"li","lines":"191,199"}},{"content":"One leader; write at risk;","children":[],"payload":{"tag":"li","lines":"199,200"}}],"payload":{"tag":"li","lines":"176,200"}},{"content":"Multi Leader","children":[],"payload":{"tag":"li","lines":"200,201"}},{"content":"mostly with multi data center","children":[],"payload":{"tag":"li","lines":"201,202"}},{"content":"Leader in each data center; writes to local DC;","children":[],"payload":{"tag":"li","lines":"202,203"}},{"content":"used on offline clients, colloborative editing","children":[],"payload":{"tag":"li","lines":"203,204"}},{"content":"Problems:","children":[{"content":"Conflicts &amp; resolution","children":[{"content":"LWW: last write time; writes get unique UUID; prone to data loss","children":[],"payload":{"tag":"li","lines":"206,207"}},{"content":"record conflict and resolve later","children":[],"payload":{"tag":"li","lines":"207,208"}},{"content":"Custom conflict resolution logic:","children":[{"content":"On write/On read: prompt user","children":[],"payload":{"tag":"li","lines":"209,210"}}],"payload":{"tag":"li","lines":"208,210"}},{"content":"CRDTs","children":[],"payload":{"tag":"li","lines":"210,211"}},{"content":"Mergeable Persistent data structures","children":[],"payload":{"tag":"li","lines":"211,212"}},{"content":"Operational Transoformation","children":[],"payload":{"tag":"li","lines":"212,213"}}],"payload":{"tag":"li","lines":"205,213"}}],"payload":{"tag":"li","lines":"204,213"}},{"content":"Replication Topology:","children":[{"content":"Circular, start, all-to-all","children":[],"payload":{"tag":"li","lines":"214,215"}}],"payload":{"tag":"li","lines":"213,215"}},{"content":"Conflict resolution is not discussed at this point (DDIA)","children":[],"payload":{"tag":"li","lines":"215,216"}},{"content":"Leaderless","children":[],"payload":{"tag":"li","lines":"216,217"}},{"content":"","children":[],"payload":{"tag":"li","lines":"217,218"}}],"payload":{"tag":"li","lines":"175,218"}}],"payload":{"tag":"li","lines":"169,218"}}],"payload":{"tag":"li","lines":"108,218"}},{"content":"\n<p data-lines=\"218,219\">Storage formats</p>","children":[{"content":"SSTable (Sorted String table)","children":[{"content":"Needs sorted key storage (not sure why)","children":[],"payload":{"tag":"li","lines":"220,221"}},{"content":"PreSStable","children":[{"content":"Hash Indexes","children":[{"content":"Maintain hash map of key &amp; offset in the disk","children":[],"payload":{"tag":"li","lines":"223,224"}},{"content":"Each write results in an append and create segments","children":[],"payload":{"tag":"li","lines":"224,225"}},{"content":"Compact segments (i.e remove duplicates) as we will run out of disk space","children":[],"payload":{"tag":"li","lines":"225,226"}},{"content":"Each segment has in-memory hash table; search each hash table for Reads","children":[],"payload":{"tag":"li","lines":"226,227"}},{"content":"Each data is binary format encoded","children":[],"payload":{"tag":"li","lines":"227,228"}},{"content":"Deletion: Tombstone log","children":[],"payload":{"tag":"li","lines":"228,229"}},{"content":"Why append only? Disks are good are sequential seeks than random access","children":[],"payload":{"tag":"li","lines":"229,230"}},{"content":"Problems","children":[{"content":"in-memory hash map limited by memory; on disk hash map has random access pattern","children":[],"payload":{"tag":"li","lines":"231,232"}},{"content":"Range queries doesn't work well.","children":[],"payload":{"tag":"li","lines":"232,233"}}],"payload":{"tag":"li","lines":"230,233"}}],"payload":{"tag":"li","lines":"222,233"}}],"payload":{"tag":"li","lines":"221,233"}},{"content":"SSTable","children":[{"content":"During merging, ensure keys are sorted (mergesort)","children":[],"payload":{"tag":"li","lines":"234,235"}},{"content":"Keep sparse keys; use binary search to find the range of data to read","children":[],"payload":{"tag":"li","lines":"235,236"}},{"content":"Compress the data pointed at by the range","children":[],"payload":{"tag":"li","lines":"236,237"}},{"content":"Write : in-memory (AVL/RB) memtable; write to SSTable file after certain MB","children":[],"payload":{"tag":"li","lines":"237,238"}},{"content":"Read: find key in  memtable; get the segment from the disk","children":[],"payload":{"tag":"li","lines":"238,239"}},{"content":"memtable is backed by a log (for crashes)","children":[],"payload":{"tag":"li","lines":"239,240"}},{"content":"bloom filter to check index is present in disk or not","children":[],"payload":{"tag":"li","lines":"240,241"}},{"content":"sstables are compacted : Level tiered, size-tiered","children":[],"payload":{"tag":"li","lines":"241,242"}},{"content":"Writes have high througput","children":[],"payload":{"tag":"li","lines":"242,243"}},{"content":"Drawbacks:","children":[{"content":"Write amplification; space inefficient; (compaction helps)","children":[],"payload":{"tag":"li","lines":"244,245"}},{"content":"Read are slower than B-trees","children":[],"payload":{"tag":"li","lines":"245,246"}}],"payload":{"tag":"li","lines":"243,246"}}],"payload":{"tag":"li","lines":"233,246"}},{"content":"DBs","children":[{"content":"leveldb, apache cassandra,","children":[],"payload":{"tag":"li","lines":"247,249"}}],"payload":{"tag":"li","lines":"246,249"}}],"payload":{"tag":"li","lines":"219,249"}}],"payload":{"tag":"li","lines":"218,249"}},{"content":"\n<p data-lines=\"249,250\">References:</p>","children":[{"content":"<a href=\"https://uplevel.interviewkickstart.com/resource/rc-video-437946-2905116-1589-9534\">sanjay online processing</a>","children":[],"payload":{"tag":"li","lines":"250,252"}}],"payload":{"tag":"li","lines":"249,252"}}],"payload":{"tag":"ul","lines":"10,252"}},{"activeNode":{"placement":"center"},"initialExpandLevel":2})</script>
+</body>
+</html>
+
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Lakshmi Narasimhan Seshan</span>
+  </div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
